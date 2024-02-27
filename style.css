@@ -1,0 +1,26 @@
+h3{
+  color: rgb(42, 67, 62);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); 
+  grid-template-rows: repeat(8, 1fr); 
+  width: 480px;
+  border: 2px solid black; 
+  margin: 0 auto;
+}
+
+.white {
+  background-color: white;
+  height: 60px;
+  width: 60px;
+}
+
+.black {
+  background-color: black;
+  height: 60px;
+  width: 60px;
+}
